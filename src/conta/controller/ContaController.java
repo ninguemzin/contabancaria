@@ -22,10 +22,11 @@ public class ContaController implements ContaRepository {
 
 	@Override
 	public void listarTodas() {
-		for (var conta : listaContas) {
-			conta.visualizar();
+		for (var livro : listaContas) {
+			livro.visualizar();
 		}
 	}
+	
 
 	@Override
 	public void cadastrar(Conta conta) {
